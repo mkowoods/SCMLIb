@@ -1,4 +1,0 @@
-
-
-
-def exp_smoothing()
