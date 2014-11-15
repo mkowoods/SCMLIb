@@ -15,3 +15,4 @@ TODO:
 
 4. implment exponential smoothing, holt and holt-winter models.
 
+5. have a testing and training Class determine the best choic of the various Algorithms

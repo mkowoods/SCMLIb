@@ -1,8 +1,11 @@
 from scipy.stats import t, norm
+import numpy as np
 
 
 def coef_of_variation(arr):
     return arr.std()/arr.mean()
+    
+    
 
 def conf_interval(arr, confidence = 0.95):
     N = arr.size
@@ -16,3 +19,11 @@ def conf_interval(arr, confidence = 0.95):
     x_bar = arr.mean()
 
     return (x_bar - z*(s/np.sqrt(N)), x_bar + z*(s/np.sqrt(N)))
+    
+
+
+
+    
+    
+
+    
